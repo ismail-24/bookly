@@ -1,8 +1,8 @@
 import 'package:bookly/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 
-class CustomListViewItem extends StatelessWidget {
-  const CustomListViewItem({
+class FeaturedListViewItem extends StatelessWidget {
+  const FeaturedListViewItem({
     super.key,
   });
   @override
@@ -12,7 +12,7 @@ class CustomListViewItem extends StatelessWidget {
 
     return SizedBox(
       // width: screenWidth * 0.3,
-      height: screenHeight * 0.218,
+      height: screenHeight * 0.3,
       child: AspectRatio(
         aspectRatio: 2.62 / 4,
         child: Container(
