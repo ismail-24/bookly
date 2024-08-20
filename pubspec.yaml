@@ -34,6 +34,7 @@ dependencies:
   get: ^4.6.6
   lints: ^3.0.0
   font_awesome_flutter: ^10.7.0
+  flutter_screenutil: ^5.9.3
 
 dev_dependencies:
   flutter_lints: ^3.0.0
