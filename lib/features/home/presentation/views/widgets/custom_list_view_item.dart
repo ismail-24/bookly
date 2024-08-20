@@ -14,7 +14,7 @@ class FeaturedListViewItem extends StatelessWidget {
       // width: screenWidth * 0.3,
       height: screenHeight * 0.3,
       child: AspectRatio(
-        aspectRatio: 2.62 / 4,
+        aspectRatio: 2.5 / 4,
         child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(16),
