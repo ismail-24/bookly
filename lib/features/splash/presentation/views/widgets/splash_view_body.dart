@@ -1,9 +1,8 @@
-import 'package:bookly/constants.dart';
+import 'package:bookly/core/utils/app_routers.dart';
 import 'package:bookly/core/utils/assets.dart';
-import 'package:bookly/features/home/presentation/views/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:get/get.dart';
+import 'package:go_router/go_router.dart';
 
 import 'sliding_text.dart';
 
@@ -64,11 +63,12 @@ class _SplashViewBodyState extends State<SplashViewBody>
     Future.delayed(
       const Duration(seconds: 3),
       () {
-        Get.to(
-          () => const HomeView(),
-          transition: Transition.zoom,
-          duration: kTransitionDuration,
-        );
+        // Get.to(
+        //   () => const HomeView(),
+        //   transition: Transition.zoom,
+        //   duration: kTransitionDuration,
+        // );
+        GoRouter.of(context).push(AppRouters.kHomeView);
       },
     );
   }

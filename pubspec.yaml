@@ -31,16 +31,16 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter:
     sdk: flutter
-  get: ^4.6.6
-  lints: ^3.0.0
-  font_awesome_flutter: ^10.7.0
   flutter_screenutil: ^5.9.3
+  font_awesome_flutter: ^10.7.0
   google_fonts: ^6.2.1
+  lints: ^3.0.0
 
 dev_dependencies:
   flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
+  go_router: ^14.2.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
