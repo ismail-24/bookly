@@ -11,7 +11,7 @@ class CustomBookItem extends StatelessWidget {
     // final double screenWidth = MediaQuery.of(context).size.width;
 
     return AspectRatio(
-      aspectRatio: 2.5 / 4,
+      aspectRatio: 2.6 / 4,
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
