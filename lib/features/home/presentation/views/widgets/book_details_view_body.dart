@@ -1,3 +1,4 @@
+import 'package:bookly/core/utils/styles.dart';
 import 'package:bookly/features/home/presentation/views/widgets/custom_book_details_app_bar.dart';
 import 'package:bookly/features/home/presentation/views/widgets/custom_book_item.dart';
 import 'package:flutter/material.dart';
@@ -16,8 +17,25 @@ class BookDetailsViewBody extends StatelessWidget {
         children: [
           const CustomBookDetailsAppBar(),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.17),
+            padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.2),
             child: const CustomBookItem(),
+          ),
+          const SizedBox(height: 43),
+          Text(
+            'The Martian',
+            style: Styles.textStyle30.copyWith(
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          Opacity(
+            opacity: 0.7,
+            child: Text(
+              'Andy Weir',
+              style: Styles.textStyle18.copyWith(
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
           ),
         ],
       ),
