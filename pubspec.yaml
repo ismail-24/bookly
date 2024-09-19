@@ -37,6 +37,7 @@ dependencies:
   lints: ^3.0.0
 
 dev_dependencies:
+  equatable: ^2.0.5
   flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
@@ -66,6 +67,5 @@ flutter:
     - family: Gt Sectra Fine
       fonts:
         - asset: assets/fonts/GT Sectra Fine Regular.ttf
-
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
