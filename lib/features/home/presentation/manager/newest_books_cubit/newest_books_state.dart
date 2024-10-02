@@ -1,4 +1,4 @@
-part of 'newset_books_cubit.dart';
+part of 'newest_books_cubit.dart';
 
 sealed class NewestBooksState extends Equatable {
   const NewestBooksState();
