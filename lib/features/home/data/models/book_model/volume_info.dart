@@ -75,7 +75,11 @@ class VolumeInfo extends Equatable {
             : PanelizationSummary.fromJson(
                 json['panelizationSummary'] as Map<String, dynamic>),
         imageLinks: json['imageLinks'] == null
-            ? null
+            ? ImageLinks(
+                smallThumbnail:
+                    'https://m.media-amazon.com/images/I/71RCCl3gGuL._AC_UF894,1000_QL80_.jpg',
+                thumbnail:
+                    'https://m.media-amazon.com/images/I/71RCCl3gGuL._AC_UF894,1000_QL80_.jpg')
             : ImageLinks.fromJson(json['imageLinks'] as Map<String, dynamic>),
         language: json['language'] as String?,
         previewLink: json['previewLink'] as String?,
